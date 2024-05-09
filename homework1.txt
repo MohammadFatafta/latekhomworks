@@ -1,0 +1,87 @@
+\documentclass{article}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{lipsum}
+
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[l]{\textcolor{red}{Homework Assignment}}
+
+
+\definecolor{titlecolor}{RGB}{0, 102, 204}
+\definecolor{authorcolor}{RGB}{255, 231, 98}
+\definecolor{datecolor}{RGB}{255, 0, 0}
+\definecolor{abscolor}{RGB}{6,198,255}
+\definecolor{intru}{RGB}{6,123,255}
+\definecolor{page}{RGB}{193,150,107}
+
+\title{\textcolor{titlecolor}{\underline{Homework}}}
+\author{\textcolor{authorcolor}{Mohammad Fatafta}}
+\date{\textcolor{datecolor}{\textit{7/4/2024}}}
+
+\begin{document}
+\pagenumbering{arabic} 
+\renewcommand{\thepage}{Page \arabic{page}}
+
+
+
+
+\pagecolor{page}
+\maketitle
+\begin{abstract}
+  \textcolor{abscolor}{This homework assignment covers various LaTeX commands and elements. Your task is to replicate this document using LaTeX.} 
+\end{abstract}
+\tableofcontents
+\newpage
+
+\section{\textcolor{intru}{Introduction}}
+This is the introduction section of the homework assignment.
+\subsection{Objective}
+The objective of this assignment is to familiarize yourself with LaTeX syntax and commands.
+\section{Nested Lists}
+Mohammad nisted list
+\subsection{my NList}
+\begin{enumerate}
+    \item computer aplication
+    \begin{itemize}
+        \item excil
+        \begin{enumerate}
+            \item word
+        \end{enumerate}
+    \end{itemize}
+\end{enumerate}
+\section{Tasks}
+\begin{enumerate}
+    \item Create a LaTeX document with the provided title, author, and date information(Done).
+    \item Add an abstract(Done) .
+    \item Include a table of contents.
+    \item Use different font styles such as bold, italic, and underlined.
+    \item Create nested lists using itemize and enumerate environments.
+    \item Change page color and text color using the xcolor package.
+    \item Use the fancyhdr package to customize headers and footers.
+    \item Apply different line spacing using the setspace package.
+    
+\end{enumerate}
+
+
+
+\begin{flushright}
+This text is right aligned
+\end{flushright}
+\begin{center}
+   
+This text is centered
+
+\end{center}
+
+\subsection*{Conclusion}
+This concludes the homework assignment.
+
+\section*{Acknowledgements}
+thank you
+\section*{References}
+[1] LaTeX Documentation
+
+
+\end{document}

@@ -1,0 +1,120 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{amsthm}
+\usepackage[table]{xcolor}
+
+
+
+
+\definecolor{gray}{RGB}{160,160,160}
+\definecolor{gray1}{RGB}{192,192,192}
+\begin{document}
+\section{iamges}
+
+\begin{figure}[ht]
+        \centering
+        \includegraphics[width=0.3\textwidth]{pngwing.com_99.png} \hfill
+        \includegraphics[width=0.3\textwidth]{pngwing.com_98.png} \hfill
+        \includegraphics[width=0.3\textwidth]{pngwing.com_97.png}
+        \caption{Multiple Images}
+        \label{fig:multiple_images}
+    \end{figure}
+    
+\textbf{\textit{This section of the guide will introduce you to the commands that can help you towards formatting the body text in different ways. It includes text formatting i.e making texts bold, italic, adding comments, inserting lists( both ordered and unordered), and inserting figures and images into your LaTeX document} }  
+
+\section{\textbf{table 1}}
+
+
+\begin{table}[h!]
+    \centering
+    \caption{table 1}
+
+    
+    \begin{tabular}{|c|c|c| }
+    \hline
+    \rowcolor{gray}
+ \multicolumn{3}{|c|}{\textbf{Student Scores}}    \\
+\hline
+\rowcolor{gray1}
+\textbf{Name } &\textbf{Math Score}  & \textbf{Science Score} \\
+\hline
+John  & 90 & 80\\
+\hline
+Sarah & 75 & 92\\
+\hline
+Michael & 85 & 88\\
+\hline
+      
+    \end{tabular}
+    
+    
+\end{table}
+
+
+\textbf{\textit{This section of the guide will introduce you to the commands that can help you towards formatting the body text in different ways. It includes text formatting i.e making texts bold, italic, adding comments, inserting lists( both ordered and unordered), and inserting figures and images into your LaTeX document} }  
+\section{table 2}
+\textbf{\textit{This section of the guide will introduce you to the commands that can help you towards formatting the body text in different ways. It includes text formatting i.e making texts bold, italic, adding comments, inserting lists( both ordered and unordered), and inserting figures and images into your LaTeX document} }  
+
+\begin{table}[h!]
+    
+    \caption{table 2}
+\centering
+    
+    \begin{tabular}{|c|c|c|c| }
+    \hline
+ \multicolumn{4}{|c|}{\textbf{Product Sales}}    \\
+\hline
+\rowcolor{gray1}
+\textbf{Product } &\textbf{Sales (2019)}  & \textbf{ Sales (2020)} & \textbf{Change} \\
+\hline
+Product A & 1000 &1200 & +20% 
+\\
+\hline
+Product B & 500 & 400 & -20%  
+\\ 
+\hline
+Product C & 1500 & 1800 & +20% 
+\\
+\hline
+      
+    \end{tabular}
+    
+    
+\end{table}
+
+\section{table3}
+
+\begin{table}[h!]
+    \centering
+    \caption{table 3}
+
+    
+    \begin{tabular}{|c|c|p{4cm}| }
+    \hline
+ \multicolumn{3}{|c|}{\textbf{Book Reviews}}    \\
+\hline
+\rowcolor{gray1}
+\textbf{Book Title } &\textbf{Rating (/10)}  & \textbf{Review} \\
+\hline
+”The Catcher in the Rye” & 8.5 & A classic novel that still resonates with readers today.\\
+\hline
+”The Great Gatsby” & 9.0 & A masterpiece of American literature that explores themes of love, wealth, and class.\\
+\hline
+”1984” & 9.5 & A chilling dystopian novel that continues to be relevant in today’s society.\\
+\hline
+      
+    \end{tabular}
+    
+    
+\end{table}
+
+\textbf{\textit{This section of the guide will introduce you to the commands that can help you towards formatting the body text in different ways. It includes text formatting i.e making texts bold, italic, adding comments, inserting lists( both ordered and unordered), and inserting figures and images into your LaTeX document} }  
+
+\listoffigures
+\listoftables
+
+\tableofcontents
+
+
+
+\end{document}
